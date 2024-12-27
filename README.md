@@ -1,123 +1,127 @@
-Here is the README file in Markdown format, optimized for GitHub:
+# TriPeaks Card Game
 
-```markdown
-# 🃏 TriPeaks Card Game - Data Structures Project
-
-Welcome to the **TriPeaks Card Game** repository! This project was developed as part of a **Data Structures and Algorithms** course, showcasing the application of advanced data structures and algorithms in building an interactive and engaging card game using C#.
+This repository contains the implementation of a **TriPeaks Card Game** developed as a university project for the course "Data Structures and Algorithm Design." The project demonstrates the application of advanced data structures and algorithms using C#.
 
 ---
 
-## 🚀 Features
+## Table of Contents
 
-- **Graph-Based Card Management**  
-  Utilizes directed graphs to dynamically manage card relationships and game logic.
-
-- **Custom Controls**  
-  Includes custom-designed UI elements such as:
-  - Rounded panels
-  - Card piles
-  - Individual playing cards
-
-- **Shuffling Algorithm**  
-  Implements an efficient card shuffling mechanism using jagged arrays for optimal performance.
-
-- **Game Mechanics**  
-  Features include:
-  - Card movement
-  - Hint system
-  - Undo functionality
-  - Automated score tracking
-
-- **High Score Management**  
-  Persistent high score storage and sorting using efficient algorithms.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Game Mechanics](#game-mechanics)
+- [Contributors](#contributors)
 
 ---
 
-## 🛠️ Technologies Used
+## Introduction
 
-- **Language:** C#
-- **IDE:** Microsoft Visual Studio
-- **Data Structures:** Arrays, Graphs, Lists, Stacks
+The **TriPeaks Card Game** is a solitaire card game implemented with:
+
+- A pyramid of 28 cards divided into three peaks.
+- Cards that can be removed only if they are one rank higher or lower than the top card of the waste pile.
+- The goal to clear all cards from the board.
+
+This project emphasizes the use of **graph data structures** to manage the relationships between cards and their interactions during gameplay.
 
 ---
 
-## 🎮 How to Run
+## Features
 
-1. **Clone the repository**  
+- **Graph-based Card Relationship Management:**
+  - Nodes represent cards.
+  - Directed edges define valid moves.
+- **Custom Controls for Gameplay:**
+  - Interactive card piles.
+  - Rounded panels for enhanced visuals.
+- **Efficient Algorithms:**
+  - Graph traversal for card interactions.
+  - Optimized shuffling and scoring.
+- **Undo and Hint Mechanisms:**
+  - Undo last move using a stack.
+  - Hints suggest possible moves.
+- **Persistent Scoring System:**
+  - High scores stored and sorted.
+
+---
+
+## Technologies Used
+
+- **Programming Language:** C#
+- **Development Environment:** Microsoft Visual Studio
+- **Data Structures:**
+  - Arrays, Lists, Graphs, Stacks
+- **Custom Graphics Extensions:** For rounded UI elements.
+
+---
+
+## Project Structure
+
+- **Core Logic:**
+  - `Graph.cs`: Manages card relationships.
+  - `Shuffler.cs`: Handles card creation and shuffling.
+- **UI Components:**
+  - `PlayingCard`: Represents a single card.
+  - `CardsPile`: Manages piles of cards.
+- **Utilities:**
+  - `GraphicsExtension.cs`: Custom drawing methods.
+  - `HintMechanism.cs`: Suggests possible moves.
+- **Game Scenes:**
+  - Main menu
+  - Game board
+  - High scores
+
+---
+
+## Installation
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/TriPeaks-Card-Game.git
+   git clone https://github.com/your_username/tripeaks-card-game.git
    ```
-2. **Open the project**  
-   Launch the solution file (`.sln`) in Microsoft Visual Studio.
-3. **Build and Run**  
-   Build the project and run the application to start playing the game.
+2. Open the solution file in **Microsoft Visual Studio**.
+3. Build and run the project.
 
 ---
 
-## 📊 Game Mechanics Overview
+## Usage
 
-### Card Management
-- Directed graphs represent card relationships.
-- Cards are removed from the graph as they are played, ensuring dynamic interaction.
-
-### Scoring and Persistence
-- High scores are stored persistently.
-- Uses efficient sorting algorithms for real-time leaderboard updates.
-
-### Undo and Hint System
-- A stack-based undo mechanism allows players to revert moves.
-- The hint system evaluates possible moves and highlights them for the player.
+1. Launch the game.
+2. Select `New Game` to start.
+3. Use the following controls:
+   - Click on a card to move it to the waste pile if valid.
+   - Use the `Hint` button for suggestions.
+   - Undo moves with the `Undo` button.
+4. Aim to clear the board and set a new high score!
 
 ---
 
-## 📂 Repository Structure
+## Game Mechanics
 
-```
-/src
-   |-- MainGame.cs       # Core game logic
-   |-- Graph.cs          # Graph implementation for card relationships
-   |-- UIControls.cs     # Custom UI controls
-   |-- Shuffler.cs       # Card shuffling logic
-/assets
-   |-- images/           # Card and UI assets
-/docs
-   |-- report.pdf        # Detailed project documentation
-README.md               # This file
-```
+### Card Relationships
 
----
+- Cards are represented as nodes in a graph.
+- Directed edges connect cards that can be moved based on game rules.
+- Graph relationships update dynamically as cards are removed.
 
-## 🤝 Contributing
+### Winning and Losing Conditions
 
-We welcome contributions! If you'd like to improve the game or fix any issues, please follow these steps:
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m 'Add new feature'
-   ```
-4. Push the branch:
-   ```bash
-   git push origin feature/YourFeature
-   ```
-5. Open a pull request.
+- **Win:** Clear all cards from the board.
+- **Lose:** No valid moves left, and the stock pile is empty.
+
+### Advanced Features
+
+- **Undo:** Tracks the last moves using a stack.
+- **Hint:** Highlights possible moves.
+- **Persistent Scoring:** High scores stored locally using `StringCollection`.
 
 ---
 
-## 📜 License
+## Contributors
 
-This project is licensed under the [MIT License](LICENSE).
+- **Jafar Mirzaei**
+- **Mohammad Arabi**
 
----
-
-## 🌟 Acknowledgments
-
-This project was inspired by the **TriPeaks** card game and serves as a demonstration of practical applications of data structures and algorithms. Special thanks to the contributors and mentors who supported the development process.
-
----
-
-🎉 **Enjoy playing and exploring the code!**
-```
