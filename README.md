@@ -1,4 +1,4 @@
-# TriPeaks Card Game
+# TriPeaks Card Game - Using Windows Forms
 
 This repository contains the implementation of a **TriPeaks Card Game** developed as a university project for the course "Data Structures and Algorithm Design." The project demonstrates the application of advanced data structures and algorithms using C#.
 
