@@ -1,5 +1,6 @@
 # TriPeaks Card Game - Using Windows Forms
-![image](https://github.com/user-attachments/assets/523aaa97-d4ca-4b12-983d-5f6675431478)
+
+![image](https://github.com/user-attachments/assets/5974acd8-0301-47cf-ad16-bd98c1f22435)
 
 This repository contains the implementation of a **TriPeaks Card Game** developed as a university project for the course "Data Structures and Algorithm Design".
 
