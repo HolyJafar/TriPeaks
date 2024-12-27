@@ -1,35 +1,45 @@
-TriPeaks Card Game - Data Structures Project
+# 🃏 TriPeaks Card Game - Data Structures Project
 
-This repository contains the implementation of the "TriPeaks" card game, developed as a project for a Data Structures and Algorithms course. The project demonstrates the application of advanced data structures and algorithmic concepts in building an interactive card game using C#.
+Welcome to the **TriPeaks Card Game** repository! This project was developed as part of a Data Structures and Algorithms course, showcasing the use of advanced data structures and algorithmic concepts in building an interactive and fun card game using C#.
 
-Key Features:
+---
 
-Graph-Based Card Management: Implements card relationships using directed graphs to handle game logic dynamically.
+## 🚀 Features
 
-Custom Controls: Includes custom-designed UI elements such as rounded panels, card piles, and individual playing cards for a seamless gaming experience.
+- **Graph-Based Card Management**  
+  Utilizes directed graphs to dynamically manage card relationships and game logic.
 
-Shuffling Algorithm: Efficient card shuffling mechanism using jagged arrays for optimal performance.
+- **Custom Controls**  
+  Includes beautifully designed UI elements such as:
+  - Rounded panels
+  - Card piles
+  - Individual playing cards
 
-Game Mechanics: Features include card movement, hint system, undo functionality, and automated score tracking.
+- **Shuffling Algorithm**  
+  Implements an efficient card shuffling mechanism using jagged arrays for optimal performance.
 
-High Score Management: Stores and sorts high scores using efficient algorithms for persistent ranking.
+- **Game Mechanics**  
+  Features include:
+  - Card movement
+  - Hint system
+  - Undo functionality
+  - Automated score tracking
 
-Technologies Used:
+- **High Score Management**  
+  Persistent high score storage and sorting using efficient algorithms.
 
-Language: C#
+---
 
-IDE: Microsoft Visual Studio
+## 🛠️ Technologies Used
 
-Data Structures: Arrays, Graphs, Lists, Stacks
+- **Language:** C#
+- **IDE:** Microsoft Visual Studio
+- **Data Structures:** Arrays, Graphs, Lists, Stacks
 
-This project showcases how fundamental data structure concepts can be applied in a practical and engaging way, combining algorithmic design with software development skills.
+---
 
-Feel free to explore the code and contribute! 😊
+## 🎮 How to Run
 
-How to Run:
-
-Clone the repository.
-
-Open the project in Microsoft Visual Studio.
-
-Run the application to play the TriPeaks card game.
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/TriPeaks-Card-Game.git
