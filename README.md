@@ -4,7 +4,7 @@ This repository contains the implementation of a **TriPeaks Card Game** develope
 
 ---
 
-## Table of Contents
+## 📋 Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
@@ -17,7 +17,7 @@ This repository contains the implementation of a **TriPeaks Card Game** develope
 
 ---
 
-## Introduction
+## 🎮 Introduction
 
 The **TriPeaks Card Game** is a solitaire card game implemented with:
 
@@ -29,26 +29,26 @@ This project emphasizes the use of **graph data structures** to manage the relat
 
 ---
 
-## Features
+## ✨ Features
 
-- **Graph-based Card Relationship Management:**
+- 🌐 **Graph-based Card Relationship Management:**
   - Nodes represent cards.
   - Directed edges define valid moves.
-- **Custom Controls for Gameplay:**
+- 🎨 **Custom Controls for Gameplay:**
   - Interactive card piles.
   - Rounded panels for enhanced visuals.
-- **Efficient Algorithms:**
+- ⚡ **Efficient Algorithms:**
   - Graph traversal for card interactions.
   - Optimized shuffling and scoring.
-- **Undo and Hint Mechanisms:**
+- ⏪ **Undo and Hint Mechanisms:**
   - Undo last move using a stack.
   - Hints suggest possible moves.
-- **Persistent Scoring System:**
+- 🏆 **Persistent Scoring System:**
   - High scores stored and sorted.
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Programming Language:** C#
 - **Development Environment:** Microsoft Visual Studio
@@ -58,7 +58,7 @@ This project emphasizes the use of **graph data structures** to manage the relat
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 
 - **Core Logic:**
   - `Graph.cs`: Manages card relationships.
@@ -76,7 +76,7 @@ This project emphasizes the use of **graph data structures** to manage the relat
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 1. Clone the repository:
    ```bash
@@ -87,7 +87,7 @@ This project emphasizes the use of **graph data structures** to manage the relat
 
 ---
 
-## Usage
+## 🚀 Usage
 
 1. Launch the game.
 2. Select `New Game` to start.
@@ -99,7 +99,7 @@ This project emphasizes the use of **graph data structures** to manage the relat
 
 ---
 
-## Game Mechanics
+## 🃏 Game Mechanics
 
 ### Card Relationships
 
@@ -120,8 +120,7 @@ This project emphasizes the use of **graph data structures** to manage the relat
 
 ---
 
-## Contributors
+## 👥 Contributors
 
 - **Jafar Mirzaei**
 - **Mohammad Arabi**
-
