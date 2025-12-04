@@ -1,4 +1,4 @@
-# TriPeaks Card Game - Using Windows Forms
+# TriPeaks Card Game
 
 This repository contains the implementation of a **TriPeaks Card Game** developed as a university project for the course "Data Structures and Algorithm Design".
 
@@ -56,7 +56,7 @@ This project emphasizes the use of **graph data structures** to manage the relat
 - **Development Environment:** Microsoft Visual Studio
 - **Data Structures:**
   - Arrays, Lists, Graphs, Stacks
-- **Custom Graphics Extensions:** For rounded UI elements.
+- **Custom Graphics Extensions.**
 
 ---
 
